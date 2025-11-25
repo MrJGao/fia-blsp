@@ -19,3 +19,9 @@ Directory structure:
     - `mod_`: Model and analysis.
     - `vis_`: Visualization.
     - `base.R`: This file contains project configuration variables, especially the file paths over multiple storage locations, and some common functions.
+
+Key R packages include:
+- [`blsp`](https://github.com/ncsuSEAL/Bayesian_LSP) (v1.5)
+- [`terra`](https://cran.r-project.org/web/packages/terra/index.html) (v1.8.7)
+- [`data.table`](https://cran.r-project.org/web/packages/data.table/index.html) (v1.17.8) 
+- [`rjags`](https://cran.r-project.org/web/packages/rjags/index.html) (v4.16). Note that the [Just Another Gibbs Sampler (JAG; v4.3.0)](https://mcmc-jags.sourceforge.io/) needs to be installed to use `rjags` for Bayesian model fitting. 
