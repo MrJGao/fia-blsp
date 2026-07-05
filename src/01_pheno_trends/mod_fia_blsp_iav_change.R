@@ -38,7 +38,7 @@ AnalyzeSiteSpecData <- function(specname) {
         setorder(phenos, Year)
 
         phenos[MidGreenup_upr - MidGreenup_lwr > 30, MidGreenup := NA]
-        phenos[MidGreendown_upr - MidGreendown_lwr > 30, MidGreenup := NA]
+        phenos[MidGreendown_upr - MidGreendown_lwr > 30, MidGreendown := NA]
 
         phenos <- na.omit(phenos[, .(MidGreenup, MidGreendown, yr = Year)])
         phenos[, yr := as.numeric(yr)]

@@ -25,3 +25,6 @@ Key R packages include:
 - [`terra`](https://cran.r-project.org/web/packages/terra/index.html) (v1.8.7)
 - [`data.table`](https://cran.r-project.org/web/packages/data.table/index.html) (v1.17.8) 
 - [`rjags`](https://cran.r-project.org/web/packages/rjags/index.html) (v4.16). Note that the [Just Another Gibbs Sampler (JAGS; v4.3.0)](https://mcmc-jags.sourceforge.io/) needs to be installed to use `rjags` for Bayesian model fitting. 
+
+>Note that not all code scripts are executable due to lack of the FIA related data, which is not accessible to the public. Phenological analyses using the long-term in-situ data can be reproduced using scripts in `01_pheno_trends/hfhb/`. 
+
